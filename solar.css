@@ -1,0 +1,309 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background: url('https://static.vecteezy.com/system/resources/thumbnails/008/169/417/small_2x/starry-background-blue-night-sky-design-illustration-vector.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    
+}
+
+
+
+
+#div1{
+    padding: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+#s1{
+    position: relative;
+    width: 630px;
+    height: 630px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: dev81;
+   animation-duration: 50s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+@keyframes dev81{
+    100%{
+        transform: rotate(360deg);
+    } 
+}
+
+#img1{
+    position: absolute;
+    top: 40px;
+    left: 85px;
+}
+#s2{
+   position: relative;
+   width: 560px;
+   height: 560px;
+   border: 1px solid white;
+   border-radius: 50%;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: dev71;
+   animation-duration: 45s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+
+@keyframes dev71{
+    100%{
+        transform: rotate(360deg);
+    } 
+}
+#img2{
+    position: absolute;
+    right: 95px;
+    top: 7px;
+}
+#s3{
+    position: relative;
+    width: 490px;
+    height: 490px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       animation-name: dev61;
+   animation-duration: 40s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+    
+}
+@keyframes dev61{
+    100%{
+        transform: rotate(360deg);
+    } 
+}
+#img3{
+     position: absolute;
+     left: 170px;
+     top: -85px;
+}
+#s4{
+    position: relative;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     animation-name: dev51;
+   animation-duration: 35s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+@keyframes dev51{
+    100%{
+        transform: rotate(360deg);
+    } 
+}
+#img4{
+    position: absolute;
+    left: -27px;
+    top: 110px;
+}
+#s5{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     animation-name: dev41;
+   animation-duration: 30s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+   @keyframes dev41{
+    100%{
+        transform: rotate(360deg);
+    } 
+}
+#img5{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+#s6{
+    position:relative;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: dev31;
+   animation-duration: 25s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+@keyframes dev31{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#img6{
+    position: absolute;
+    right: -5px;
+    bottom: 50px;
+}
+#s7{
+    position: relative;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: dev21;
+   animation-duration: 50s;
+   animation-iteration-count: infinite;
+   animation-timing-function:step-end;
+}
+
+@keyframes dev21{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#img7{
+    position: absolute;
+    bottom: -15px;
+    right: 80px;
+}
+
+#s8{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: dev11;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+@keyframes dev11{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#img8{
+    position: absolute;
+   right: -15px;
+}
+
+#s9{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid white;
+     position: relative;
+     align-items: center;
+     justify-content: center;
+}
+#img9{
+    position: absolute;
+    animation-name: sun;
+    animation-name: sun;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes sun{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@media(max-width:480px){
+    #div1{
+        padding: 5vw;
+    }
+    #s1{
+        width:90vw ;
+        height:90vh ;
+    }
+    #s2{
+        width:80vw ;
+        height:80vh ;
+    }
+    #s3{
+        width:65vw ;
+        height:65vh ;
+    }
+    #s4{
+        width:54vw ;
+        height:54vh ;
+    }
+    #s5{
+        width:45vw ;
+        height:45vh ;
+    }
+    #s6{
+        width:34vw ;
+        height:34vh ;
+    }
+    #s7{
+        width:28vw ;
+        height:28vh ;
+    }
+    #s8{
+        width:18vw ;
+        height:18vh ;
+    }
+    #s9{
+        width:10vw ;
+        height:10vh ;
+    }
+
+     #img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9 {
+    width: 7vw;
+    max-width: 40px; 
+  }
+  #img3 { width: 20vw; max-width: 90px; }
+  #img9 { width: 18vw; max-width: 70px; }
+
+}
+
+@media (max-width: 400px) {
+  
+  #s1, #s2, #s3, #s4, #s5, #s6, #s7, #s8, #s9 {
+    width: 95vw;
+    height: 95vw;
+  }
+}
+
